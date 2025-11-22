@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #b8c5d8;
+}
+
+#soundButton {
+  width: 90vw;
+  height: 90vh;
+  border: none;
+  background-image: url("rik.jpg");
+  background-size: cover;     /* Fill the button */
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0;
+  cursor: pointer;
+}
+
+/* When the button is being pressed */
+#soundButton:active {
+  background-image: url("dance-moves.gif");
+}
