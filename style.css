@@ -12,14 +12,30 @@ body {
   height: 90vh;
   border: none;
   background-image: url("rik.jpg");
-  background-size: cover;     /* Fill the button */
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding: 0;
   cursor: pointer;
 }
 
-/* When the button is being pressed */
 #soundButton:active {
   background-image: url("dance-moves.gif");
 }
+
+
+#soundButton {
+  -webkit-tap-highlight-color: transparent;
+}
+
+
+#soundButton:focus {
+  outline: none;
+}
+
+#soundButton {
+  user-select: none;         
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
